@@ -1,6 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useLocalStorage } from "./../../utils/useLocalStorage";
 import detecDarkMode from "../../utils/detecDarkMode";
+import { BsFillMoonFill } from "react-icons/bs";
+import { BsSunFill } from "react-icons/bs";
 
 import "./style.css";
 
@@ -27,16 +29,19 @@ const BtnDarkMode = () => {
 
   return (
     <button ref={btnRef} className="dark-mode-btn" onClick={toggleDarkMode}>
-      <img
-        src="../img/icons/sun.svg"
+      <BsSunFill className="dark-mode-btn__icon" />
+      {/* <img
+        src="../../img/icons/moon.svg"
         alt="Light mode"
         className="dark-mode-btn__icon"
-      />
-      <img
+      /> */}
+
+      <BsFillMoonFill className="dark-mode-btn__icon" />
+      {/* <img
         src="../img/icons/moon.svg"
         alt="Dark mode"
-        className="dark-mode-btn__icon"
-      />
+        
+      /> */}
     </button>
   );
 };

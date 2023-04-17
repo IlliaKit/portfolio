@@ -3,6 +3,7 @@ const projects = [
     id: 1,
     title: "Nico Planet",
     skills: "(HTML, CSS)",
+
     img: "../img/projects/01.jpg",
     gitHubLink: "",
     link: "https://illiakit.github.io/NicoPlanet/",
