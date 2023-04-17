@@ -1,3 +1,7 @@
+import { AiOutlineInstagram } from "react-icons/ai";
+import { FiTwitter } from "react-icons/fi";
+import { AiFillGithub } from "react-icons/ai";
+
 import "./style.css";
 
 const Footer = () => {
@@ -7,19 +11,13 @@ const Footer = () => {
         <div className="footer__wrapper">
           <ul className="social">
             <li className="social__item">
-              <a href="#!">
-                <img src="./img/icons/instagram.svg" alt="Link" />
-              </a>
+              <AiOutlineInstagram className="icon" />
             </li>
             <li className="social__item">
-              <a href="#!">
-                <img src="./img/icons/twitter.svg" alt="Link" />
-              </a>
+              <FiTwitter className="icon" />
             </li>
             <li className="social__item">
-              <a href="#!">
-                <img src="./img/icons/gitHub.svg" alt="Link" />
-              </a>
+              <AiFillGithub className="icon" />
             </li>
           </ul>
         </div>
