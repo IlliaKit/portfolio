@@ -1,10 +1,12 @@
+import image01 from "./../img/01.jpg";
+
 const projects = [
   {
     id: 1,
     title: "Nico Planet",
     skills: "(HTML, CSS)",
 
-    img: "../img/projects/01.jpg",
+    img: { image01 },
     gitHubLink: "",
     link: "https://illiakit.github.io/NicoPlanet/",
   },
@@ -12,7 +14,7 @@ const projects = [
     id: 2,
     title: "House Staff",
     skills: "(HTML, CSS, React JS)",
-    img: "../img/projects/02.jpg",
+    img: "./img/02.jpg",
     gitHubLink: "",
     link: "https://illiakit.github.io/ShopStaff/",
   },
