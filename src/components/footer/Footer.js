@@ -11,13 +11,19 @@ const Footer = () => {
         <div className="footer__wrapper">
           <ul className="social">
             <li className="social__item">
-              <AiOutlineInstagram className="icon" />
+              <a target="blank" href="https://www.instagram.com/kitenek/">
+                <AiOutlineInstagram className="icon" />
+              </a>
             </li>
             <li className="social__item">
-              <FiTwitter className="icon" />
+              <a target="blank" href="#!">
+                <FiTwitter className="icon" />
+              </a>
             </li>
             <li className="social__item">
-              <AiFillGithub className="icon" />
+              <a target="blank" href="https://github.com/IlliaKit">
+                <AiFillGithub className="icon" />
+              </a>
             </li>
           </ul>
         </div>
