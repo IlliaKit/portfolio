@@ -1,4 +1,9 @@
 import image01 from "./../img/01.jpg";
+import image02 from "./../img/02.jpg";
+import image03 from "./../img/03.jpg";
+import image04 from "./../img/04.jpg";
+import image05 from "./../img/05.jpg";
+import image06 from "./../img/06.jpg";
 
 const projects = [
   {
@@ -6,7 +11,7 @@ const projects = [
     title: "Nico Planet",
     skills: "(HTML, CSS)",
 
-    img: { image01 },
+    img: image01,
     gitHubLink: "",
     link: "https://illiakit.github.io/NicoPlanet/",
   },
@@ -14,7 +19,7 @@ const projects = [
     id: 2,
     title: "House Staff",
     skills: "(HTML, CSS, React JS)",
-    img: "./img/02.jpg",
+    img: image02,
     gitHubLink: "",
     link: "https://illiakit.github.io/ShopStaff/",
   },
@@ -22,7 +27,7 @@ const projects = [
     id: 3,
     title: " Client list",
     skills: "(HTML, CSS, ReactJS)",
-    img: "../img/projects/03.jpg",
+    img: image03,
     gitHubLink: "",
     link: "https://illiakit.github.io/clientList/",
   },
@@ -30,7 +35,7 @@ const projects = [
     id: 4,
     title: "Dimension",
     skills: "(HTML, CSS)",
-    img: "../img/projects/04.jpg",
+    img: image04,
     gitHubLink: "",
     link: "https://illiakit.github.io/Dimension/",
   },
@@ -38,7 +43,7 @@ const projects = [
     id: 5,
     title: "Test-Shop",
     skills: "(HTML, CSS, JavaScript)",
-    img: "../img/projects/05.jpg",
+    img: image05,
     gitHubLink: "",
     link: "https://illiakit.github.io/Test_shop/",
   },
@@ -46,7 +51,7 @@ const projects = [
     id: 6,
     title: "CV",
     skills: "(HTML, CSS)",
-    img: "../img/projects/06.jpg",
+    img: image06,
     gitHubLink: "",
     link: "https://illiakit.github.io/CV/",
   },
