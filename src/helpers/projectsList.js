@@ -4,6 +4,8 @@ import image03 from "./../img/03.jpg";
 import image04 from "./../img/04.jpg";
 import image05 from "./../img/05.jpg";
 import image06 from "./../img/06.jpg";
+import image07 from "./../img/07.jpg";
+import image08 from "./../img/08.jpg";
 
 const projects = [
   {
@@ -54,6 +56,22 @@ const projects = [
     img: image06,
     gitHubLink: "",
     link: "https://illiakit.github.io/CV/",
+  },
+  {
+    id: 7,
+    title: "",
+    skills: "(HTML, CSS, JavaScript)",
+    img: image07,
+    gitHubLink: "",
+    link: "https://illiakit.github.io/MoonAnimation/",
+  },
+  {
+    id: 8,
+    title: "Create animation scroll (adaptive)",
+    skills: "(HTML, CSS, JavaScript)",
+    img: image08,
+    gitHubLink: "",
+    link: "https://illiakit.github.io/Scroll_Animation/",
   },
 ];
 
