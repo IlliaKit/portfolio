@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c6db4dcf.css",
-    "main.js": "/portfolio/static/js/main.35e09375.js",
+    "main.js": "/portfolio/static/js/main.7772e228.js",
     "static/media/04.jpg": "/portfolio/static/media/04.1b19d71cb72375610fd9.jpg",
     "static/media/01.jpg": "/portfolio/static/media/01.d2a6d10da5b103a99b2f.jpg",
     "static/media/02.jpg": "/portfolio/static/media/02.bf6ab5d112060dfe8ec5.jpg",
     "static/media/05.jpg": "/portfolio/static/media/05.81f1fc1a0cab4ecf3eb8.jpg",
+    "static/media/08.jpg": "/portfolio/static/media/08.1381f73abe89dd9f23e2.jpg",
     "static/media/03.jpg": "/portfolio/static/media/03.e4d15acb7f29453ea7ae.jpg",
-    "static/media/06.jpg": "/portfolio/static/media/06.de4106f9cde4ec2a99cc.jpg",
-    "static/media/CV_Illia_Yanchenko.pdf": "/portfolio/static/media/CV_Illia_Yanchenko.9ea001bb85923340f569.pdf",
+    "static/media/06.jpg": "/portfolio/static/media/06.b39cbf3fcdf3bd3b69c4.jpg",
+    "static/media/CV_Illia_Yanchenko.pdf": "/portfolio/static/media/CV_Illia_Yanchenko.60c17a72bfa87d9f8310.pdf",
+    "static/media/07.jpg": "/portfolio/static/media/07.596da1038edc99fb2981.jpg",
     "static/media/header-bg.png": "/portfolio/static/media/header-bg.5bf82a058f892ab7f237.png",
     "index.html": "/portfolio/index.html",
     "main.c6db4dcf.css.map": "/portfolio/static/css/main.c6db4dcf.css.map",
-    "main.35e09375.js.map": "/portfolio/static/js/main.35e09375.js.map"
+    "main.7772e228.js.map": "/portfolio/static/js/main.7772e228.js.map"
   },
   "entrypoints": [
     "static/css/main.c6db4dcf.css",
-    "static/js/main.35e09375.js"
+    "static/js/main.7772e228.js"
   ]
 }
